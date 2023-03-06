@@ -40,7 +40,7 @@ prodi2.add_course(crs5)
 prodi2.add_course(crs6)
 
 listprodi = [prodi1, prodi2]
-
+print()
 
 for prd in listprodi:
     print("Nama Program Studi : ", prd.get_nama_prodi())
@@ -56,7 +56,8 @@ for prd in listprodi:
         print("Pendidikan Terakhir : ", i.get_pend_terakhir())
         print("Asal Universitas : ", i.get_asal_universitas())
         print("Email Edu : ", i.get_email_edu())
-    print("mahasiswa : ")
+
+    print("\nmahasiswa : ")
     for i in prd.get_listmhs():
         print("Nama : ", i.get_nama())
         print("NIK : ", i.get_nik())
@@ -64,6 +65,7 @@ for prd in listprodi:
         print("Jenis Kelamin : ", i.get_jenis_kelamin())
         print("Asal Universitas : ", i.get_asal_universitas())
         print("Email Edu : ", i.get_email_edu())
+    print("\nmata kuliah")
     for i in prd.get_listcrs():
         print("Nama Matkul : ", i.get_nama_matakuliah())
         print("Kode MK : ", i.get_kode_mk())
