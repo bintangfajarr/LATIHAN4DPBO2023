@@ -6,13 +6,16 @@ from Dosen import Dosen
 class ProgramStudi:
     __nama_prodi = ""
     __kode_prodi = ""
-    __listcrs: Course = []
-    __listmhs: Mahasiswa = []
-    __listdosen: Dosen = []
+    __listcrs = []
+    __listmhs = []
+    __listdosen = []
 
     def __init__(self, nama_prodi="", kode_prodi=""):
         self.__nama_prodi = nama_prodi
         self.__kode_prodi = kode_prodi
+        self.__listcrs = []
+        self.__listmhs = []
+        self.__listdosen = []
 
     def set_nama_prodi(self, nama_prodi):
         self.__nama_prodi = nama_prodi
@@ -34,8 +37,6 @@ class ProgramStudi:
 
     def add_dosen(self, dosen: Dosen):
         self.__listdosen.append(dosen)
-        # self.__listdosen += dosen
-        # pass
 
     def get_listcrs(self):
         return self.__listcrs

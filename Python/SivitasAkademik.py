@@ -7,8 +7,8 @@ class SivitasAkademik(Human):
 
     def __init__(self, nik="", nama="", jenis_kelamin="", asal_universitas="", email_edu="",):
         super().__init__(nik, nama, jenis_kelamin)
-        __asal_universitas = asal_universitas
-        __email_edu = email_edu
+        self.__asal_universitas = asal_universitas
+        self.__email_edu = email_edu
 
     def set_asal_universitas(self, asal_universitas):
         self.__asal_universitas = asal_universitas

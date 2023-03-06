@@ -4,9 +4,9 @@ class Course:
     __kode_mk = ""
 
     def __init__(self, nama_matakuliah="", sks="", kode_mk=""):
-        self.__nama_matakuliah = ""
-        self.__sks = ""
-        self.__kode_mk = ""
+        self.__nama_matakuliah = nama_matakuliah
+        self.__sks = sks
+        self.__kode_mk = kode_mk
 
     def set_nama_matakuliah(self, nama_matakuliah):
         self.__nama_matakuliah = nama_matakuliah

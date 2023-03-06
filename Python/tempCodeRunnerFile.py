@@ -1,6 +1,1 @@
-   print("Nama : ", i.get_nama())
-        print("NIK : ", i.get_nik())
-        print("NIP : ", i.get_nip())
-        print("Jenis Kelamin : ", i.get_jenis_kelamin())
-        print("Keahlian : ", i.get_keahlian())
-        print("Pendidikan Terakhir : ", i.get_pend_terakhir())
+
