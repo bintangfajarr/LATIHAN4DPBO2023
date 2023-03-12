@@ -41,7 +41,9 @@ Didalam class **ProgramStudi** memiliki 5 Atribut, yaitu :
 * List Mahasiswa
 
 ## Alur Program
-
+### Relasi Antar kelas
+* Disini Sivitas Akademik mengextend dari human dan nantinya mahasiswa dan dosen juga meng extend dari sivitas akademik, alasan saya adalah karena dosen dan mahasiswa adalah bagian dari sivitas akademik itu sendiri dan juga sivitas akademik tidak hanya mahasiswa dan dosen, bisa jadi pegawai TU juga,
+* selanjutnya ada Program Studi, di dalam program studi dia composite ke 3 kelas yaitu mahasiswa, dosen dan juga course, alasannya adalah karena di setiap prodi itu pasti terdiri dari beberapa mahasiswa, dosen, dan juga course, untuk membuat hal itu terjadi, saya menambahkan method add course, add mhs dan add dosen, agar nantinya saya bisa memasukkan banyak mahasiswa ke dalam 1 programstudi, nantinya si program studi ini satu saja dan terdiri dari beberapa mahasiswa
 
 
 
