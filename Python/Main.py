@@ -12,9 +12,9 @@ crs4 = Course("Alpro", "3", "PIK100")
 crs5 = Course("Strukdat", "3", "PIK101")
 crs6 = Course("DPBO", "3", "PIK102")
 
-mhs1 = Mahasiswa("2102665", "32133001201313",
+mhs1 = Mahasiswa("2102665", "FPMIPA", "32133001201313",
                  "Bintang Fajar", "L", "UPI", "bintangfajar@upi.edu")
-mhs2 = Mahasiswa("2102666", "321300494940",
+mhs2 = Mahasiswa("2102666", "FPMIPA", "321300494940",
                  "Muhammad Nur Yasin", "L", "UPI", "mnyasin@upi.edu")
 
 
@@ -62,6 +62,7 @@ for prd in listprodi:
         print("Nama : ", i.get_nama())
         print("NIK : ", i.get_nik())
         print("NIM : ", i.get_nim())
+        print("Fakultas : ", i.get_fakultas())
         print("Jenis Kelamin : ", i.get_jenis_kelamin())
         print("Asal Universitas : ", i.get_asal_universitas())
         print("Email Edu : ", i.get_email_edu())
