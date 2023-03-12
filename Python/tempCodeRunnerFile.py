@@ -1,2 +1,2 @@
-"19293733", "S2", "AI",
-             "3213300032", "Yaya Wihardi", "L", "UPI", "yaya@upi.edu"
+dsn2 = Dosen("19293732", "S2", "algoritma",
+             "3213302131", "Rosa Ariani S", "P", "UPI", "rosa@upi.edu")
