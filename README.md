@@ -33,9 +33,16 @@ Didalam class **Course** memiliki 3 Atribut, yaitu :
 * Kode Mata Kuliah
 * SKS
 
+Didalam class **ProgramStudi** memiliki 5 Atribut, yaitu : 
+* Nama Program Studi
+* Kode Program Studi
+* List Course
+* List Dosen 
+* List Mahasiswa
+
 ## Alur Program
 
-Program ini memiliki alur mulai dari instansiasi objek dari kelas Mahasiswa, mengisi nilai atribut-atribut dari objek Mahasiswa yang diinstansiasi sebelumnya menggunakan Setter methods, memasukkan objek tersebut ke dalam list, hingga berhasil menampilkan data beberapa objek Mahasiswa di dalam list dengan menggunakan Getter methods.
+
 
 
 ### Dokumentasi 
